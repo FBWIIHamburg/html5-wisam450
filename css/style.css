@@ -5,11 +5,18 @@ body {
   
   /* div#header, div#footer { */
   header,footer {
+    padding-left: 10%;
+    padding: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-    padding: 10px;
     color: white;
     background-color: black;
-    padding-left: 10%;
+   
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
   }
   
  
@@ -17,16 +24,22 @@ body {
   section {
     
     margin: 5px;
-    padding: 10px;
+    padding-bottom: 10px;
     background-color: lightgrey;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 10px;
+
   }
   
   article {
     margin: 5px;
     padding: 10px;
     background-color: white;
+  }
+  nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   nav ul {
@@ -36,4 +49,6 @@ body {
   nav ul li {
     display: inline;
     margin: 5px;
+    /* color:white; */
+   
   }
